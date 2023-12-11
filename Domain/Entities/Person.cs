@@ -11,5 +11,6 @@ namespace Domain.Entities
         public Employee Employee { get; set; }
         public PersonType PersonType { get; set; }
         public int PersonTypeId { get; set; }
+        public ICollection<ContactPerson> ContactPeople  { get; set; }
     }
 }

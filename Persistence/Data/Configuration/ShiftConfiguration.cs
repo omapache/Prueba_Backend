@@ -13,8 +13,8 @@ namespace Persistence.Data.Configurations
             builder.HasKey(e => e.Id);
             builder.Property(e => e.Id);
 
-            builder.Property(e => e.ShiftStart).HasColumnType("TimeOnly");
-            builder.Property(e => e.ShiftFinal).HasColumnType("TimeOnly");
+            builder.Property(e => e.ShiftStart);
+            builder.Property(e => e.ShiftFinal);
             builder.Property(e => e.Name).IsRequired().HasMaxLength(30);
         }
     }

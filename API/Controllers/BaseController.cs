@@ -1,12 +1,9 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers
 {
-    [Route("controller")]
+    [ApiController]
+    [Route("[controller]")]
     public class BaseController : ControllerBase
     {
         

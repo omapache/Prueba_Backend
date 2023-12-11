@@ -16,7 +16,7 @@ namespace Domain.Interfaces
         IDirPerson DirPersons {get;}
         IEmployee Employees {get;}
         IPerson Persons {get;}
-        IPersonType PersonType {get;}
+        IPersonType PersonTypes {get;}
         IProgramation Programations {get;}
         IRol Rols {get;}
         IShift Shifts {get;}

@@ -14,9 +14,8 @@ namespace Persistence.Data.Configurations
             builder.Property(e => e.Id);
 
             builder.HasIndex(e => e.IdPerson).IsUnique();
-            builder.Property(e => e.IdPerson).IsRequired().HasMaxLength(50);
 
-            builder.Property(e => e.RegisterDate).HasColumnType("DateOnly");
+            builder.Property(e => e.RegisterDate);
             builder.HasOne(e => e.PersonType)
             .WithMany(e => e.People)
             .HasForeignKey(e => e.PersonTypeId);

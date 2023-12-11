@@ -17,7 +17,7 @@ namespace Persistence.Data.Configurations
 
             builder.Property(e => e.Created).HasMaxLength(6);
             builder.Property(e => e.Expires).HasMaxLength(6);
-            builder.Property(e => e.UserId).HasColumnType("int(11)");
+            builder.Property(e => e.UserId);
             builder.Property(e => e.Revoked).HasMaxLength(6);
             builder.Property(e => e.Token).HasMaxLength(50);
 

@@ -13,8 +13,8 @@ namespace Persistence.Data.Configurations
             builder.HasKey(e => e.Id);
             builder.Property(e => e.Id);
 
-            builder.Property(e => e.ContractDate).HasColumnType("DateOnly");
-            builder.Property(e => e.ContractFinalDate).HasColumnType("DateOnly");
+            builder.Property(e => e.ContractDate);
+            builder.Property(e => e.ContractFinalDate);
 
             builder.HasOne(e => e.Client)
             .WithMany(e => e.Contracts)

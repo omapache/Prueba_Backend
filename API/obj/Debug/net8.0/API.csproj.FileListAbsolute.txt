@@ -84,3 +84,4 @@ C:\Users\user\Desktop\Prueba_Backend\API\obj\Debug\net8.0\refint\API.dll
 C:\Users\user\Desktop\Prueba_Backend\API\obj\Debug\net8.0\API.pdb
 C:\Users\user\Desktop\Prueba_Backend\API\obj\Debug\net8.0\API.genruntimeconfig.cache
 C:\Users\user\Desktop\Prueba_Backend\API\obj\Debug\net8.0\ref\API.dll
+C:\Users\user\Desktop\Prueba_Backend\API\obj\Debug\net8.0\API.sourcelink.json

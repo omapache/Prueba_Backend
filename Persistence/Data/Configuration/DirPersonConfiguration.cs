@@ -18,8 +18,7 @@ namespace Persistence.Data.Configurations
             .HasMaxLength(50);
 
             builder.Property(p => p.FirstNumber)
-            .IsRequired()
-            .HasColumnType("int");
+            .IsRequired();
 
             builder.Property(p => p.Letter)
             .HasMaxLength(1);

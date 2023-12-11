@@ -20,6 +20,10 @@ namespace Persistence.Data.Configurations
             builder.HasOne(e =>e.ContactType)
             .WithMany(e => e.ContactPeople)
             .HasForeignKey(e => e.ContactTypeId);
+
+            builder.HasOne(e => e.Person)
+            .WithMany(e => e.ContactPeople)
+            .HasForeignKey(e => e.PersonId);
         }
     }
 }

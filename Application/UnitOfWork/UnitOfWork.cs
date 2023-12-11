@@ -105,7 +105,7 @@ public class UnitOfWork : IUnitOfWork, IDisposable
         }
     }
 
-    public IPersonType PersonType {
+    public IPersonType PersonTypes {
         get {
             if (_PersonTypes == null) {
                 _PersonTypes = new PersonTypeRepository(_context);
@@ -166,6 +166,8 @@ public class UnitOfWork : IUnitOfWork, IDisposable
             return _Users;
         }
     }
+
+
     public UnitOfWork(Prueba_backendContext context)
     {
         _context = context;

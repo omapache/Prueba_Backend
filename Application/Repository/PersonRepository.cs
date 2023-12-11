@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 using Domain.Entities;
 using Domain.Interfaces;
 using Persistence.Data;
-using Persistence.Repository;
 
 namespace Application.Repository;
 public class PersonRepository : GenericRepository<Person> , IPerson

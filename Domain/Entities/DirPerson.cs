@@ -21,7 +21,6 @@ namespace Domain.Entities
         public int ThirdNumber { get; set; }
         public string SecondCardinal { get; set; }
         public string Complement { get; set; }
-        public string ZipCode { get; set; }
 
         [Required]
         public int IdCity { get; set; }
