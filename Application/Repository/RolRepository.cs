@@ -1,0 +1,15 @@
+using Domain.Entities;
+using Domain.Interfaces;
+using Persistence.Data;
+using Persistence.Repository;
+
+namespace Application.Repository;
+
+public class RolRepository : GenericRepository<Rol>, IRol
+{
+    private readonly Prueba_backendContext _context;
+    public RolRepository(Prueba_backendContext context) : base(context)
+    {
+        _context = context;
+    }
+}
